@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>WIT Cards</title>
+    </head>
+    <body>
+        <div>
+            <select name="" id="sortCard" onchange="sortUsers()">
+                <option value="options" selected disabled>Click to sort Results</option>
+                <option value="name">Name</option>
+                <option value="level">Level</option>
+                <option value="points">Points</option>
+            </select>
+        </div>
+        <!-- container for the cards -->
+         <section class="container" id="card-container">
+            
+         </section>
+
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+    <script src="./script.js"></script>
+    </body>
+</html>

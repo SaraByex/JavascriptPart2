@@ -1,0 +1,75 @@
+body {
+  background: #4b0082; /* dark indigo purple */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0e6ff; /* light lavender text */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container-fluid {
+  background: #6a47a0; /* medium purple for container */
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(75, 0, 130, 0.7);
+  max-width: 600px;
+  width: 100%;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.signup-form {
+  background: #8c63d1; /* lighter purple shade for form background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(140, 99, 209, 0.6);
+  color: #fff;
+}
+
+.signup-form label {
+  font-weight: 600;
+  color: #ddd;
+}
+
+.signup-form input.form-control {
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.signup-form input.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #d7b7ff;
+}
+
+.btn-primary {
+  background-color: #a37eee; /* bright purple button */
+  border: none;
+  font-weight: 700;
+  padding: 0.6rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #7d4bba; /* darker purple on hover */
+  outline: none;
+  box-shadow: 0 0 10px 3px #b19eff;
+}
+
+/* Invalid feedback styling */
+.invalid-feedback {
+  color: #ffc1e3;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

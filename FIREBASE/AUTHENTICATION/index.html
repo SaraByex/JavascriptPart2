@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Firebase</title>
+</head>
+<body>
+   
+    <section>
+    <h1>Register Client</h1>
+    <form>
+        <label>Email</label><input type="email" id="emailRegister">
+        <label>Password</label><input type="password" id="passwordRegister">
+        <button id="btnRegister">Register</button>
+
+    </form>
+</section>
+<section>
+    <h1>Login</h1>
+    <form>
+        <label >Email</label><input type="email" id="emailLogin">
+        <label>Password</label><input type="password" id="passwordLogin">
+        <button  id="btnLogin">Login</button>
+
+    </form>
+</section>
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
